@@ -26,19 +26,25 @@
    npm install
    ```
 
-4. 安裝完畢後，繼續輸入：
+4. 安裝完畢後，設定環境變數連線 MongoDB
+
+   ```bash
+   MONGODB_URI = mongodb+srv://<你的mongoDB帳號>:<你的mongoDB密碼>@cluster0.xxxx.xxxx.net/<你的MongoDB Table><?retryWrites=true&w=majority
+   ```
+
+5. 安裝完畢後，繼續輸入：
 
    ```bash
    npm run start
    ```
 
-5. 若看見此行訊息則代表順利運行，打開瀏覽器進入到以下網址
+6. 若看見此行訊息則代表順利運行，打開瀏覽器進入到以下網址
 
    ```bash
    Listening on http://localhost:3000
    ```
 
-6. 若欲暫停使用
+7. 若欲暫停使用
 
    ```bash
    ctrl + c
