@@ -29,10 +29,10 @@
 4. 安裝完畢後，設定環境變數連線 MongoDB
 
    ```bash
-   MONGODB_URI = mongodb+srv://<Your MongoDB Account>:<Your MongoDB Password>@cluster0.xxxx.xxxx.net/<Your MongoDB Table><?retryWrites=true&w=majority
+   MONGODB_URI=mongodb+srv://<Your MongoDB Account>:<Your MongoDB Password>@cluster0.xxxx.xxxx.net/<Your MongoDB Table><?retryWrites=true&w=majority
    ```
 
-5. 安裝完畢後，繼續輸入：
+5. 繼續輸入：
 
    ```bash
    npm run start
