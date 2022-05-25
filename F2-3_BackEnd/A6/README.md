@@ -29,7 +29,7 @@
 4. 安裝完畢後，設定環境變數連線 MongoDB
 
    ```bash
-   MONGODB_URI = mongodb+srv://<你的mongoDB帳號>:<你的mongoDB密碼>@cluster0.xxxx.xxxx.net/<你的MongoDB Table><?retryWrites=true&w=majority
+   export MONGODB_URI="your MongoDB URI, account, password"
    ```
 
 5. 安裝完畢後，繼續輸入：
