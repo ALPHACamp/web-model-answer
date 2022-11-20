@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
 app.get("/search", (req, res) => {
   if (!req.query.keywords) {
-    res.redirect("/")
+    return res.redirect("/")
   }
 
   const keywords = req.query.keywords
@@ -42,3 +42,5 @@ app.get("/restaurants/:restaurantId", (req, res) => {
 app.listen(port, () => {
   console.log(`Listening on http://localhost:${port}`)
 })
+
+module.exports = app
